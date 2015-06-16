@@ -1,0 +1,11 @@
+{
+  "name": "bigdraw",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "d3": "~3.4.10",
+    "jquery": "~1.11.0",
+    "requirejs": "~2.1.14"
+  },
+  "devDependencies": {}
+}

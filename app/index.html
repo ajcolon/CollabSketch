@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>CollabSketch</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="styles/main.css">
+         <link rel="stylesheet" href="styles/cover.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <div class="site-wrapper">
+
+        <div id="mainWrapper" class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">CollabSketch</h3>
+                <ul class="nav masthead-nav">
+                    <li><a href="#" id="clearBtn">Clear All</a></li>
+                    <!-- <li><a href="#">Change Color</a></li> -->
+                </ul>
+            </div>
+          </div>
+
+          <div id="mainMessage" class="inner cover">
+            <h1 class="cover-heading">Welcome to CollabSketch</h1>
+            <p class="lead">is a multi-user online whiteboard designed to give you the ability to quickly visualize and share your ideas</p>
+            <p class="leead">
+              <input type="text" class="form-control" id="clientNameInput" placeholder="Enter nickname and press enter">
+            </p>
+            <p class="lead">
+              <!-- <a href="#" id="mainButton" class="btn btn-lg btn-default">Start Drawing</a> -->
+            </p>
+          </div>
+          <div class="mastfoot">
+            <div class="inner">
+               <h4 id="clients">
+              </h4>
+            </div>
+          </div>
+
+        </div>
+
+        </div>
+
+        </div>
+        <!-- bower:js -->
+         <script src="bower_components/socket/socket.io.js"></script>
+        <script data-main="scripts/main" src="bower_components/require/require.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
